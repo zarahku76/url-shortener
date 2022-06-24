@@ -12,6 +12,7 @@ else{
 	echo "Maaf, Url anda tidak valid!";
 	die();
 }
+mysqli_close($mysqli);
 ?>
 <title>Menunggu</title>
 <h1>
